@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import fondoHeader from './img/iron-man_plata-volando_3840x1920.jpg';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <img src={fondoHeader} className="" alt="logo" />
       </header>
     </div>
   );
