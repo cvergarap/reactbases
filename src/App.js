@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './components/Counter'
 import User from './components/User';
 import TodoList from './components/TodoList/TodoList';
+import HPCharacters from './components/apiHarryPotter/HPCharacters';
 
 function App() {
   let varUsuario = {
@@ -30,6 +31,10 @@ function App() {
           </div>
           <div>
             <TodoList/>
+            <hr/>
+          </div>
+          <div>
+            <HPCharacters/>
             <hr/>
           </div>
       </body>
